@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  text-align: center;
+  margin: 10px;
+}
+.fetchButton {
+  display: block;
+  padding: 20px;
+  margin: 3rem auto;
+  background: #257571;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.fetchButton:hover {
+  background: #930000;
+}
+
+.table {
+  width: 95%;
+  margin: auto;
+  font-size: 16px;
+}
+.table > thead {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+td,
+th {
+  border: 1px solid #c4c4c448;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0d8f3;
+}
