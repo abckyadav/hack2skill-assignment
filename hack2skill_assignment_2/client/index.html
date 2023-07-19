@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hack2Skill</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>YouTube</h1>
+      </div>
+      <div class="search">
+        <input type="text" class="searchInput" placeholder="Search Videos" />
+        <button onclick="searchVideos()" class="searchBtn">search</button>
+      </div>
+      <div class="videoDisplayContainer"></div>
+      <div class="paginationContainer">
+        <button class="prevBtn" onclick="changePage(-1)" disabled>Prev</button>
+        <button class="nextBtn" onclick="changePage(1)" disabled>Next</button>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
