@@ -36,7 +36,7 @@ const fetchVideos = async () => {
   }
 };
 
-// const interval = setInterval(fetchVideos, 10000);
+const interval = setInterval(fetchVideos, 10000);
 
 const getVideos = async (req, res) => {
   const page = parseInt(req.query.page) || 1;

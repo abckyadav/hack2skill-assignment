@@ -1,0 +1,100 @@
+* {
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  color: rgb(231, 7, 7);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.searchInput {
+  width: 400px;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 30px 0px 0px 30px;
+  border: 1px solid #616161b4;
+  font-size: 20px;
+  border-right: none;
+  outline: none;
+  color: #ffffffd0;
+}
+
+.searchBtn {
+  border-radius: 0px 30px 30px 0px;
+  height: 52px;
+  width: 90px;
+  border: 1px solid #616161b4;
+  cursor: pointer;
+  font-size: 20px;
+  border-left: 1px solid #616161b4;
+  outline: none;
+  color: #ffffffd0;
+}
+
+.videoDisplayContainer {
+  margin: 2rem 0px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  grid-gap: 2rem;
+}
+
+.videoDiv {
+  text-align: center;
+}
+
+.videoDiv img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.videoDiv h2 {
+  font-size: 16px;
+  color: #ffffffd0;
+  margin: 10px;
+}
+
+.videoDiv p {
+  color: #ffffffa1;
+  margin: 20px;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.paginationContainer button {
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 2rem;
+  border-left: 1px solid #616161b4;
+}
+
+.paginationContainer button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.errorDiv {
+  color: #fff;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+}
